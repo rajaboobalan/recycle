@@ -17,11 +17,11 @@ public class SearchController {
 
     private static List<RecycleObject> getData() {
         List<RecycleObject> objectList = new ArrayList();
-        objectList.add(new RecycleObject(0, "Metal"));
-        objectList.add(new RecycleObject(1, "Plastic"));
-        objectList.add(new RecycleObject(2, "Paper"));
-        objectList.add(new RecycleObject(3, "Wood"));
-        objectList.add(new RecycleObject(4, "Food"));
+        objectList.add(new RecycleObject(0L, "Metal"));
+        objectList.add(new RecycleObject(1L, "Plastic"));
+        objectList.add(new RecycleObject(2L, "Paper"));
+        objectList.add(new RecycleObject(3L, "Wood"));
+        objectList.add(new RecycleObject(4L, "Food"));
         return objectList;
     }
 
